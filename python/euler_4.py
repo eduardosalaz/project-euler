@@ -3,13 +3,17 @@ No sirve
 Numero palindromo mas grande obtenido del producto de 2 numeros de 3 digitos
 '''
 mayor = 0
+
+
 def voltear_num(n):
-    rev = 0
-    while (n > 0):
-        rem = n % 10
-        rev = (rev * 10) + rem
-        n = n // 10
-    return rev
+    num_str = str(n)
+    rev_str = num_str[::-1]
+    if num_str == rev_str:
+        return int(num_str)
+    else:
+        return 0
+
+
 for a in range(999):
     for b in range(999):
         x = a*b
@@ -19,5 +23,3 @@ for a in range(999):
         else:
             continue
 print(mayor)
-        
-        
