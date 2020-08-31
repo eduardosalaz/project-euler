@@ -1,7 +1,5 @@
-'''
-No sirve
-Numero palindromo mas grande obtenido del producto de 2 numeros de 3 digitos
-'''
+# Numero palindromo mas grande obtenido del producto de 2 numeros de 3 digitos
+
 mayor = 0
 
 
