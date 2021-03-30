@@ -1,15 +1,16 @@
-current = 2520
-checkers = []
-contador = 0
-for i in range(1, 21):
-    if (current % i == 0):
-        print(current)
-        checkers.append(True)
-        for check in checkers:
-            if check == True:
-                contador += 1
-        if contador == 20:
-            print(current)
-    else:
-        checkers = []
-        current += 1
+check = True
+candidato = 1
+divisores = list(range(1,20))
+otroCheck = False
+while check:
+    for divisor in divisores:
+        if candidato % divisor !=0:
+            otroCheck = False
+            break
+        else:
+            otroCheck = True
+    if otroCheck == True:
+        check = False
+    candidato = candidato + 1
+
+print(candidato -1) #off by one no se porque
