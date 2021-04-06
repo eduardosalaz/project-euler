@@ -6,7 +6,6 @@ for path in paths
         include(path)
     end
 end
-
 @testset "Project Euler problems 1-10" begin
     @test euler1(999) == 233168
     @test euler2(4_000_000) == 4613732
@@ -19,9 +18,3 @@ end
     @test euler9(1_000) == 31875000
     @test euler10(2_000_000) == 142913828922
 end
-
-
-
-
-
-

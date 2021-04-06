@@ -21,5 +21,3 @@ function euler9(numero)
     @assert suma == numero
     return producto
 end
-
-

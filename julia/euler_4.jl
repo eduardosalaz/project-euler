@@ -15,9 +15,5 @@ function euler4(n::Int64)::Int64
             end
         end
     end
-
     return mayor
 end
-
-
-

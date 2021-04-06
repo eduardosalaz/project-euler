@@ -17,4 +17,3 @@ function euler5(n; check= true, otroCheck = false)
     end
     return candidato - 1
 end
-

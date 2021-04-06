@@ -3,7 +3,6 @@ function euler2(tope::Int64)::Int64
     b = 1
     Σ = 0
     c = 0
-
     while c < tope
         c = a + b
         a = b
@@ -12,10 +11,5 @@ function euler2(tope::Int64)::Int64
             Σ += c
         end
     end
-
     return Σ
 end
-
-
-
-

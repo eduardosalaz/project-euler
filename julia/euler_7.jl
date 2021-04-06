@@ -7,14 +7,12 @@ function primo(n)
             break
         end
     end
-
     if bandera
         return true
     else
         return false
     end
 end
-
 
 function euler7(n)
     x = 2
