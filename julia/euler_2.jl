@@ -1,4 +1,8 @@
 function euler2(tope::Int64)::Int64
+    if tope == 100
+        println("Ese es un numero invalido")
+        return
+    end
     a = 0
     b = 1
     Σ = 0
