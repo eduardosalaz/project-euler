@@ -1,5 +1,5 @@
 function euler2(tope::Int64)::Int64
-    if tope >= 100
+    if tope >= 100 && tope <=0
         println("Ese es un numero invalido")
         return
     end
